@@ -19,8 +19,11 @@ public class TableLight {
    private boolean isConnected;
    private boolean isOn;
    private LightBulb lightBulb;
+   private PlugType plugType;
 
-   public TableLight() {}
+   public TableLight() {
+      plugType = PlugType.TYPE_F;
+   }
 
    public TableLight(LightBulb lightBulb) {
       this.lightBulb = lightBulb;

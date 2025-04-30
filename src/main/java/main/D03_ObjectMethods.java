@@ -9,7 +9,7 @@ import model.LightBulb;
  * @version 1.0
  *
  */
-public class D03_ObjectMethod {
+public class D03_ObjectMethods {
 
    public static void main(String[] args) {
       LightBulb bulb1 = new LightBulb("red");

@@ -1,0 +1,2 @@
+Daniel;42;TYPE_F;1.79
+Hans;17;TYPE_B;1.81
