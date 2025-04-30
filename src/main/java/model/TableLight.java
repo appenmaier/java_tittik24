@@ -1,5 +1,9 @@
 package model;
 
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+
 /**
  * Table Light
  *
@@ -7,22 +11,23 @@ package model;
  * @version 1.0
  *
  */
+@Getter
+@ToString
+@EqualsAndHashCode
 public class TableLight {
 
    private boolean isConnected;
    private boolean isOn;
    private LightBulb lightBulb;
 
-   public boolean isConnected() {
-      return isConnected;
+   public TableLight() {}
+
+   public TableLight(LightBulb lightBulb) {
+      this.lightBulb = lightBulb;
    }
 
-   public boolean isOn() {
-      return isOn;
-   }
-
-   public LightBulb getLightBulb() {
-      return lightBulb;
+   public TableLight(String lightBulbColor) {
+      lightBulb = new LightBulb(lightBulbColor);
    }
 
    public void plugIn() {

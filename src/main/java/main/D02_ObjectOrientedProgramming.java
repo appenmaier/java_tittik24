@@ -24,6 +24,13 @@ public class D02_ObjectOrientedProgramming {
       light1.changeLightBulb(blueLightBulb);
       System.out.println(light1.isShining());
       System.out.println(light1.getLightBulb().getColor());
+
+      TableLight light2 = new TableLight(redLightBulb);
+      TableLight light3 = new TableLight("green");
+
+      System.out.println(light1);
+      System.out.println(light2);
+      System.out.println(light3);
    }
 
 }

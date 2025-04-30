@@ -1,5 +1,7 @@
 package model;
 
+import lombok.Data;
+
 /**
  * Light Bulb
  *
@@ -7,16 +9,9 @@ package model;
  * @version 1.0
  *
  */
+@Data
 public class LightBulb {
 
    private final String color;
-
-   public LightBulb(String color) {
-      this.color = color;
-   }
-
-   public String getColor() {
-      return color;
-   }
 
 }
