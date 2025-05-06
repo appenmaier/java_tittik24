@@ -12,7 +12,6 @@ import model.TableLight;
  */
 public class D02_ObjectOrientedProgramming {
 
-   @SuppressWarnings("unused")
    public static void main(String[] args) {
       LightBulb redLightBulb = new LightBulb("red");
       LightBulb blueLightBulb = new LightBulb("blue");
