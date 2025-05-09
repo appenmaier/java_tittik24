@@ -22,7 +22,7 @@ public class D04_JavaAPI {
 
    @SuppressWarnings("unused")
    public static void main(String[] args) throws FileNotFoundException {
-      /* List */
+      /* Listen */
       List<String> names = new ArrayList<>(); // = new LinkedList<>();
 
       names.add("Hans");
@@ -58,10 +58,10 @@ public class D04_JavaAPI {
          System.out.println(random.nextInt(1, 7));
       }
 
-      /* Math */
+      /* Mathematische Funktionen */
       System.out.println(Math.sqrt(9));
 
-      /* Enumeration */
+      /* Aufzählungen */
       PlugType typeF = PlugType.TYPE_F;
       PlugType typeF2 = PlugType.TYPE_F;
       PlugType typeF3 = PlugType.valueOf("TYPE_F");
