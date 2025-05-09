@@ -24,7 +24,7 @@ public class D03_ObjectMethods {
       System.out.println(bulb1 == bulb2);
       System.out.println(bulb1.equals(bulb2));
 
-      System.out.println(bulb1.getColor());
+      System.out.println(bulb1.color());
    }
 
 }

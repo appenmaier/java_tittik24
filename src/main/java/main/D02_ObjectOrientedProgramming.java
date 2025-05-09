@@ -22,7 +22,7 @@ public class D02_ObjectOrientedProgramming {
       light1.switchOn();
       light1.changeLightBulb(blueLightBulb);
       System.out.println(light1.isShining());
-      System.out.println(light1.getLightBulb().getColor());
+      System.out.println(light1.getLightBulb().color());
 
       TableLight light2 = new TableLight(redLightBulb);
       TableLight light3 = new TableLight("green");

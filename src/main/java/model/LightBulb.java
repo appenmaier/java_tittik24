@@ -1,7 +1,5 @@
 package model;
 
-import lombok.Data;
-
 /**
  * Light Bulb
  *
@@ -9,9 +7,6 @@ import lombok.Data;
  * @version 1.0
  *
  */
-@Data
-public class LightBulb {
-
-   private final String color;
+public record LightBulb(String color) {
 
 }

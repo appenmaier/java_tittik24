@@ -12,12 +12,12 @@ import lombok.ToString;
  *
  */
 @Getter
-@ToString
-@EqualsAndHashCode
-public class TableLight {
+@ToString(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
+public class TableLight extends Light {
 
    private boolean isConnected;
-   private boolean isOn;
+   // private boolean isOn;
    private LightBulb lightBulb;
    private PlugType plugType;
 
@@ -41,13 +41,13 @@ public class TableLight {
       isConnected = false;
    }
 
-   public void switchOn() {
-      isOn = true;
-   }
+   // public void switchOn() {
+   // isOn = true;
+   // }
 
-   public void switchOff() {
-      isOn = false;
-   }
+   // public void switchOff() {
+   // isOn = false;
+   // }
 
    public LightBulb changeLightBulb(LightBulb newLightBulb) {
       LightBulb oldLightBulb = lightBulb;
@@ -55,6 +55,7 @@ public class TableLight {
       return oldLightBulb;
    }
 
+   @Override
    public boolean isShining() {
       // boolean isShining;
       // if (isConnected == true && isOn == true && lightBulb != null) {
@@ -63,7 +64,7 @@ public class TableLight {
       // isShining = false;
       // }
       // return isShining;
-      return isConnected && isOn && lightBulb != null;
+      return isConnected && isOn() && lightBulb != null;
    }
 
 }
