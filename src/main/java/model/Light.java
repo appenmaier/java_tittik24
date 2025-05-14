@@ -22,7 +22,7 @@ public abstract class Light {
       isOn = true;
    }
 
-   public void switchOff() {
+   public final void switchOff() {
       isOn = false;
    }
 

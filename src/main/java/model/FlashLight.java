@@ -14,7 +14,7 @@ import lombok.ToString;
 @Getter
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
-public class FlashLight extends Light {
+public final class FlashLight extends Light {
 
    private double energyLevel;
    // private boolean isOn;

@@ -14,7 +14,7 @@ import lombok.ToString;
 @Getter
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
-public class TableLight extends Light {
+public class TableLight extends Light implements WiredDevice {
 
    private boolean isConnected;
    // private boolean isOn;
@@ -33,10 +33,12 @@ public class TableLight extends Light {
       lightBulb = new LightBulb(lightBulbColor);
    }
 
+   @Override
    public void plugIn() {
       isConnected = true;
    }
 
+   @Override
    public void pullThePlug() {
       isConnected = false;
    }

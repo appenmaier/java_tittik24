@@ -7,6 +7,8 @@ import model.FlashLight;
 import model.Light;
 import model.LightBulb;
 import model.TableLight;
+import model.Toaster;
+import model.WiredDevice;
 
 /**
  * Inheritance
@@ -57,6 +59,19 @@ public class D05_Inheritance {
 
       /* Abstrakt und Final */
       // Light light = new Light();
+
+      /* Interfaces */
+      List<WiredDevice> wiredDevices = new ArrayList<>();
+      wiredDevices.add(new Toaster(2)); // Upcast
+      wiredDevices.add(new TableLight()); // Upcast
+
+      for (WiredDevice d : wiredDevices) {
+         d.plugIn(); // Dynamische Polymorphie
+         if (d instanceof TableLight t) { // Downcast
+            t.switchOn();
+         }
+         System.out.println(d);
+      }
    }
 
 }
