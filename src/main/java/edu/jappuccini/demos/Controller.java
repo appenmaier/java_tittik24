@@ -1,4 +1,4 @@
-package myapp;
+package edu.jappuccini.demos;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -26,6 +26,8 @@ public class Controller {
 
    @FXML
    public void inputToOutput(ActionEvent event) {
+      System.out.println("Hilfe, ich werde unterdrückt");
+      System.out.println(event.getSource());
       String text = textField.getText();
       label.setText(text);
    }

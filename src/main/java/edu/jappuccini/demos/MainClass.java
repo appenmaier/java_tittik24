@@ -1,4 +1,4 @@
-package myapp;
+package edu.jappuccini.demos;
 
 import javafx.application.Application;
 
@@ -12,7 +12,7 @@ import javafx.application.Application;
 public class MainClass {
 
    public static void main(String[] args) {
-      Application.launch(MyApp.class, args);
+      Application.launch(App.class, args);
    }
 
 }
