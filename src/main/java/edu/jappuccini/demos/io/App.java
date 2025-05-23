@@ -1,4 +1,4 @@
-package edu.jappuccini.demos;
+package edu.jappuccini.demos.io;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -23,7 +23,7 @@ public class App extends Application {
    public void start(Stage primaryStage) throws Exception {
       Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
       Scene scene = new Scene(root);
-      primaryStage.setTitle("My Super Duper JavaFX-App");
+      primaryStage.setTitle("Input Output App");
       primaryStage.setScene(scene);
       primaryStage.show();
    }

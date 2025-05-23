@@ -16,7 +16,20 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
    </properties>
-  
+
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-maven-plugin</artifactId>
+            <version>0.0.8</version>
+            <configuration>
+               <mainClass>edu.jappuccini.demos.App</mainClass>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+
    <dependencies>
       <!-- Lombok -->
       <dependency>

@@ -7,14 +7,10 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox xmlns="http://javafx.com/javafx/21"
-	xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="edu.jappuccini.demos.Controller" alignment="CENTER"
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="edu.jappuccini.demos.io2.OutputController" alignment="CENTER"
 	prefHeight="100.0" prefWidth="250.0" spacing="5.0">
 	<children>
-		<TextField fx:id="textField" promptText="Gib hier etwas ein" />
-		<Button fx:id="button" alignment="CENTER" text="Drück mich"
-			onAction="#inputToOutput" />
 		<Label fx:id="label" alignment="CENTER" text="" />
 	</children>
 	<padding>

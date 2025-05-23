@@ -1,4 +1,4 @@
-package edu.jappuccini.demos;
+package edu.jappuccini.demos.io;
 
 import javafx.application.Application;
 

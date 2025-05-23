@@ -1,8 +1,7 @@
-package edu.jappuccini.demos;
+package edu.jappuccini.demos.io;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
@@ -20,9 +19,6 @@ public class Controller {
 
    @FXML
    private TextField textField;
-
-   @FXML
-   private Button button;
 
    @FXML
    public void inputToOutput(ActionEvent event) {
