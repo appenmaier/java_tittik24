@@ -1,8 +1,8 @@
 package model;
 
-import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -16,12 +16,17 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-@AllArgsConstructor
+@RequiredArgsConstructor
 @EqualsAndHashCode
 public class Student implements Comparable<Student> {
 
-   private String id;
-   private String name;
+   private final String id;
+   private final String name;
+   private int age;
+
+   public void getOlder() {
+      age++;
+   }
 
    @Override
    public int compareTo(Student other) {

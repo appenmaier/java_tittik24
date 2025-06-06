@@ -10,4 +10,4 @@ Dieses Repo beinhaltet alle Demos der Kurse TIT24 und TIK24 zur Vorlesung [Progr
 - [Vorlesung 4, 8. Mai 2025: Vererbung, (Dynamische) Polymorphie, Abstrakte und finale Klassen und Methoden, Schnittstellen (Interfaces), Listen](skript/lecture04.md)
 - [Vorlesung 5, 14. Mai 2025: Klassendiagramme, Komparatoren, Grafische Benutzeroberflächen, JavaFX](skript/lecture05.md)
 - [Vorlesung 6, 22. Mai 2025: JavaFX, Assoziativspeicher (Maps)](skript/lecture06.md)
-- [Vorlesung 7, 5. Juni 2025: tbd](skript/lecture07.md)
+- [Vorlesung 7, 5. Juni 2025: Ausnahmen (Exceptions), Optionals, Innere Klassen (Inner Classes), Lambda-Ausdrücke (Lambdas), Java Stream API](skript/lecture07.md)

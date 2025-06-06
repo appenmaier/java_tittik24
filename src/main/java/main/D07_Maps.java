@@ -62,6 +62,10 @@ public class D07_Maps {
          Exam e = entry.getValue();
          System.out.println(s.getId() + ": " + e.getGrade());
       }
+      System.out.println();
+
+      /* forEach-Schleife */
+      studentsWithGrade.forEach((s, e) -> System.out.println(s.getId() + ": " + e.getGrade()));
    }
 
 }

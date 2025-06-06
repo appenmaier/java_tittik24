@@ -1,7 +1,6 @@
 package edu.jappuccini.demos.io2;
 
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * Model
@@ -12,7 +11,6 @@ import lombok.Setter;
  */
 public class Model {
 
-   @Setter
    @Getter
    private String text;
 
@@ -25,6 +23,18 @@ public class Model {
          instance = new Model();
       }
       return instance;
+   }
+
+   public void setText(String text) throws InvalidInputException {
+      if (text.equals("") || text == null) {
+         throw new InvalidInputException();
+      }
+
+      if (text.length() > 20) {
+         throw new InvalidInputException(text.length());
+      }
+
+      this.text = text;
    }
 
 }
