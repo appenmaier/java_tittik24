@@ -1,6 +1,5 @@
 # Programmieren mit Java (TIT24 & TIK24)
 
-<<<<<<< HEAD
 Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevanten Informationen der Vorlesung _Programmieren mit Java_ der Kurse TIT24 & TIK24.
 
 ## Links
@@ -10,9 +9,6 @@ Dieses Repo beinhaltet sämtlichen Quellcode zu allen Demos sowie alle relevante
 - [Musterlösungen Übungsaufgaben](https://github.com/appenmaier/java_exercises)
 - [Musterlösungen Klausuraufgaben](https://github.com/appenmaier/java_exam_exercises)
 - [Musterlösungen JavaFX-Übungsaufgaben](https://github.com/appenmaier/java_apps)
-=======
-Dieses Repo beinhaltet alle Demos der Kurse TIT24 und TIK24 zur Vorlesung [Programmieren mit Java](https://jappuccini.github.io/java-docs/production/). Das Arbeiten mit diesem Repo wird [hier](https://jappuccini.github.io/java-docs/production/additional-material/daniel/instructions/git) beschrieben.
->>>>>>> branch 'main' of https://github.com/appenmaier/java_tittik24
 
 ## Skript
 
