@@ -1,4 +1,4 @@
-# Vorlesung 2 (24. April 2025)
+# Termin 2 (24. April 2025)
 
 ## Objektorientierte Programmierung, Klasse, Referenzen und Objekte
 
@@ -25,6 +25,6 @@
 **Links**
 
 - [Doku: Datenklassen (Records)](https://jappuccini.github.io/java-docs/production/documentation/records)
-- [Doku: Maven](https://jappuccini.github.io/java-docs/production/documentation/maven)
+- [Doku: Maven](https://jappuccini.github.io/java-docs/production/additional-material/tools/maven)
 - [Doku: Lombok](https://jappuccini.github.io/java-docs/production/documentation/lombok)
 - [Demo](https://github.com/appenmaier/java_tittik24/blob/main/src/main/java/main/D02_ObjectOrientedProgramming.java)

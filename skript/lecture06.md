@@ -1,4 +1,4 @@
-# Vorlesung 6 (22. Mai 2025)
+# Termin 6 (22. Mai 2025)
 
 ## JavaFX
 
